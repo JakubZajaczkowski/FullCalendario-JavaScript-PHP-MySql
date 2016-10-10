@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?35310422');
+  src: url('../font/fontello.eot?35310422#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?35310422') format('woff'),
+       url('../font/fontello.ttf?35310422') format('truetype'),
+       url('../font/fontello.svg?35310422#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?35310422#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-library:before { content: '\e800'; font-size:75px; margin-top:35px; } /* '' */
+.icon-user:before { content: '\e801'; font-size:75px; margin-top:35px; } /* '' */
+.icon-spin6:before { content: '\e802'; font-size:75px; margin-top:35px; } /* '' */
+.icon-user-plus:before { content: '\e803'; font-size:75px; margin-top:35px; } /* '' */
+.icon-user-times:before { content: '\e804'; font-size:75px; margin-top:35px; } /* '' */
+.icon-users:before { content: '\e805'; font-size:75px; margin-top:35px; } /* '' */
+.icon-calendar:before { content: '\e806'; font-size:75px; margin-top:35px; } /* '' */
+.icon-comment:before { content: '\e807'; font-size:75px; margin-top:35px; } /* '' */
+.icon-picture:before { content: '\e808'; font-size:75px; margin-top:35px; } /* '' */
+.icon-megaphone:before { content: '\e809'; font-size:75px; margin-top:35px; } /* '' */
+.icon-mail:before { content: '\e80a'; font-size:75px; margin-top:35px; } /* '' */
+.icon-lock:before { content: '\e80b'; font-size:75px; margin-top:35px; } /* '' */
+.icon-lock-open:before { content: '\e80c'; font-size:75px; margin-top:35px; } /* '' */
+.icon-lock-open-alt:before { content: '\e80d'; font-size:75px; margin-top:35px; } /* '' */
+.icon-download:before { content: '\e80e'; font-size:75px; margin-top:35px; } /* '' */
+.icon-upload:before { content: '\e80f'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-pdf:before { content: '\e810'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-word:before { content: '\e811'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-powerpoint:before { content: '\e812'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-excel:before { content: '\e813'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-image:before { content: '\e814'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-archive:before { content: '\e815'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-audio:before { content: '\e816'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-video:before { content: '\e817'; font-size:75px; margin-top:35px; } /* '' */
+.icon-file-code:before { content: '\e818'; font-size:75px; margin-top:35px; } /* '' */
+.icon-folder-open-empty:before { content: '\e819'; font-size:75px; margin-top:35px; } /* '' */
+.icon-folder-open:before { content: '\e81a'; font-size:75px; margin-top:35px; } /* '' */
+.icon-logout:before { content: '\e81b'; font-size:75px; margin-top:35px; } /* '' */
+.icon-chat-empty:before { content: '\e81c'; font-size:75px; margin-top:35px; } /* '' */
+.icon-camera-alt:before { content: '\e81d'; font-size:75px; margin-top:35px; } /* '' */
+.icon-camera:before { content: '\e81e'; font-size:75px; margin-top:35px; } /* '' */
+.icon-doc-text-inv:before { content: '\e81f'; font-size:75px; margin-top:35px; } /* '' */
+.icon-home:before { content: '\e820'; font-size:75px; margin-top:35px; } /* '' */
+.icon-bell:before { content: '\e821'; font-size:75px; margin-top:35px; } /* '' */
+.icon-attention:before { content: '\e822'; font-size:75px; margin-top:35px; } /* '' */
+.icon-left-big:before { content: '\e823'; font-size:40px; margin-top:10px; } /* '' */
+.icon-left-big2:before { content: '\e823'; font-size:30px; margin-top:10px; } /* '' */
+.icon-right-big:before { content: '\e824'; font-size:40px; margin-top:10px; } /* '' */
+.icon-down-big:before { content: '\e825'; font-size:40px; margin-top:10px; } /* '' */
+.icon-up-big:before { content: '\e826'; font-size:40px; margin-top:10px; } /* '' */
+.icon-ok:before { content: '\e827'; font-size:40px; margin-top:10px; } /* '' */
+.icon-cancel:before { content: '\e828'; font-size:40px; margin-top:10px; } /* '' */
+.icon-terminal:before { content: '\e829'; font-size:75px; margin-top:35px; } /* '' */
+.icon-edit:before { content: '\e82a'; font-size:75px; margin-top:35px; } /* '' */
+.icon-book:before { content: '\e82b'; font-size:75px; margin-top:35px; } /* '' */
+.icon-newspaper:before { content: '\e82c'; font-size:75px; margin-top:35px; } /* '' */
+.icon-doc-text:before { content: '\e82d'; font-size:75px; margin-top:35px; } /* '' */
+.icon-doc-text-inv-1:before { content: '\e82e'; font-size:75px; margin-top:35px; } /* '' */
+.icon-doc-text-1:before { content: '\e82f'; font-size:75px; margin-top:35px; } /* '' */
+.icon-warning-empty:before { content: '\e830'; font-size:75px; margin-top:35px; } /* '' */
+.icon-warning:before { content: '\e831'; font-size:75px; margin-top:35px; } /* '' */
